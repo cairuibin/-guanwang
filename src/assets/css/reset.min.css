@@ -1,0 +1,95 @@
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img {
+    margin: 0;
+    padding: 0
+}
+*{margin: 0;padding: 0;}
+fieldset, img {
+    border: 0
+}
+
+img {
+    display: block
+}
+
+a {
+    color: #666;
+    text-decoration: none
+}
+
+address, caption, cite, code, dfn, th, var {
+    font-style: normal;
+    font-weight: normal
+}
+
+ul, ol {
+    list-style: none
+}
+
+input {
+    padding-top: 0;
+    padding-bottom: 0;
+    font-family: "SimSun", "宋体"
+}
+
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0
+}
+
+select, input {
+    vertical-align: middle
+}
+
+select, input, textarea {
+    font-size: 12px;
+    margin: 0
+}
+
+input[type="text"], input[type="password"], textarea {
+    outline-style: none;
+    -webkit-appearance: none
+}
+
+textarea {
+    resize: none
+}
+
+table {
+    border-collapse: collapse
+}
+/* cairuibin */
+/* .swiper-pagination { */
+    /* background: #fff; */
+    /* opacity: .1; */
+    /* bottom: 0;
+    padding-top: 10px;padding: 0 300PX;
+    display: flex;justify-content: space-around;
+} */
+
+/* #swiper .swiper-pagination-bullet {
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    border-radius: 0;
+    opacity: 1;
+} */
+
+/* 媒体查询（手机） */
+
+/* @media screen and (max-width: 768px) {
+    .swiper-pagination {
+        /* background: #fff; */
+        /* opacity: .1; */
+        /* bottom: 0;
+        padding-top: 10px;
+        display: flex; justify-content: space-around;
+    }
+    #swiper .swiper-pagination-bullet {
+        width: 40px;
+        height: 40px;
+        display: inline-block;
+        border-radius: 0;
+        background: #000;
+       
+    }
+} */ 
